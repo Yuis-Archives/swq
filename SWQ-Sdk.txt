@@ -1,0 +1,97 @@
+STAR WARS QUAKE - Software Developers' Kit
+=============================================
+
+Continued interest in Quake 2 editing has
+prompted me to assemble this pack for those
+looking to continue with a Q2 mod who might
+also happen to need content. The conditions
+of use and distribution are described below:
+
+
+USE AND DISTRIBUTION:
+This pack is designed for those looking to continue the SWQ project or a
+derivative mod. It contains textures, code source, and map files (most compiled)
+which can be redistributed in another mod. However credit must be given if any
+part of this SDK is used, even bits of code or modified textures. The
+environment textures were created for SWQ by a professional developer, Maxer I
+believe - can't confirm, so I ask that you respect the sky maps and use them in
+an unmodified form. Of course none of this material can be used or destributed
+for profit.
+
+DEVELOPERS LOOKING TO CONTINUE SWQ or DERIVATIVE PROJECTS:
+To ensure you get all our content download all the packs (md2, wav, txt, and
+sdk) as well as the original DM release.
+1) Install DM release into an new directory (like SWQ_SDK) and unpack the pak0
+2) Extract the md2, wav, txt, and sdk packs into this new directory in any order
+*Overwrite anything originally extracted from the pak0.pak
+*SDK pack is large because it includes all the textures, maps, and code source
+*Due to the number of level designers who have come and gone there may be
+compiled maps (.bsp) with no accompanying .map or .qrk files, it is rare in fact
+to find any source files for our incomplete maps; part of the reason we never
+completed this project =/
+*If you have quality maps you'd like to see included in the pack, or an official
+SWQ level pack then e-mail and active member of the team with a link to where we
+can download your map -- no attachments please.
+
+Notes from SWQ team
+-----------------------------------
+"I hope this doesn't look as crappy as I feel making it" -- FuShanks, 2D Artist
+"If only I played less Team Fortress Classic" -- Privateer, 3D Artist *snicker*
+"Hurry before reality catches up with them..." -- RipVTide, Coder
+"Great job Priv!" -- Red Knight, Project Leader (he actually typed it, once)
+
+Maps
+-----------------------------------
+Most of these have no source files, part of the reason development was never
+finished, so consider them reference material. You'll note in the documents
+directory is thedoc.html, this is Red Knight's original design document. It
+describes the original plan for our maps and should explain the purpose for the
+various env maps. It was last updated in October of 1999 and our plans had long
+been scaled back, also Priv had some other ideas in mind for a few of the
+models.
+
+Bugs
+-----------------------------------
+The SWQ code is full of bugs, most prominant are a few show-stoppers and the
+animation code. Saber swinging animations need to be reworked so they have
+higher priority (the legs are animated to correspond with movement direction).
+Falling and special effects are another area in need of reworking, the choke
+and lightning effects were supposed to inflict choke_pain and light_pain in the
+player models and not a generic pain animation.
+Monster code was in the process of being reworked to take advantage of the new
+player models when work was halted. See Players\players.txt from the model pack
+for further instructions on their intended use.
+
+SWQ Releases
+-----------------------------------
+Deathmatch Release 1
+Model Pack
+Sound Pack (including music in mp3 and wav)
+Texture Pack (DM1 contains most of these)
+Software Developers' Kit
+
+
+Tools Used:
+-Microsoft Visual C++ 5.0
+-Adobe PhotoShop
+-Paint Shop Pro
+-Various others I've completely forgotten
+
+'Active' members
+============================================
+RipVTide - ripvtide@telefragged.com
+Privateer - privater2@yahoo.com
+FuShanks - fushanks@hotmail.com
+Apocx - apocx@planetwheeloftime.com
+
+The TEAM
+=============================================
+Red Knight - redknight@planethalflife.com
+Brad - braddas@hotmail.com
+MamboKing - edlima@edlima.com (music guy =)
+CaRRaC - carrac_nz@hotmail.com
+falkon2 - falkon2@tm.net.my
+ViolentBlue - violentblue@hotmail.com
+EleCtRiC - darb1@direct.ca
+Kentor - ...
+etc. =)
